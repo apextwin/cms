@@ -1,0 +1,8 @@
+DirectoryIndex index.php
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond   %{REQUEST_FILENAME}       !-f
+RewriteRule   ^(.+) /index.php?uri=$1&%{QUERY_STRING} [L]
+
+RewriteCond %{QUERY_STRING} ^$ 
+RewriteRule ^index.php$ / [R=301]

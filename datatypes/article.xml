@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATATYPE name="article" caption="Статья" icon="fa-file-text-o">
+    <FIELD name="title" caption="Заголовок" type="string"/>
+    <FIELD name="brief" caption="Анонс" type="string"/>
+    <FIELD name="content" caption="Содержимое" type="text" editor="maxi"/>
+    <FIELD name="datetime" caption="Дата публикации" type="datetime" format="d.m.Y H:i:s"/>
+    <FIELD name="image" caption="Изображение" type="image">
+        <IMAGE x="360" y="360" prefix="prev"/>     
+        <IMAGE x="800" y="600" prefix="full"/>  
+    </FIELD>    
+</DATATYPE>

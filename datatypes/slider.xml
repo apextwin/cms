@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATATYPE name="slider" caption="Слайдер"  icon="fa-file-photo-o">
+    <FIELD name="title" caption="Заголовок" type="string" />
+    <FIELD name="link" caption="Ссылка" type="string"/>
+    <FIELD name="image" caption="Изображение" type="image">
+        <IMAGE x="200" y="200" prefix="prev"/>     
+        <IMAGE x="4000" y="4000" prefix="full"/>  
+    </FIELD> 
+</DATATYPE>

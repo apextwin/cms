@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATATYPE name="faq" caption="Вопрос-ответ" icon="fa-question">
+    <FIELD name="quser" caption="Автор вопроса" type="string"/>
+    <FIELD name="email" caption="Email" type="string"/>
+    <FIELD name="question" caption="Вопрос" type="text" editor="maxi"/>
+    <FIELD name="qtime" caption="Когда задали?" type="datetime" format="d.m.Y"/>
+    <FIELD name="answer" caption="Ответ" type="text" editor="maxi"/>
+    <FIELD name="atime" caption="Когда ответили?" type="datetime" format="d.m.Y"/>
+    <FIELD name="auser" caption="Кто ответил?" type="string"/>
+</DATATYPE>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATATYPE name="file" caption="Файл" icon="fa-file">
+    <FIELD name="title" caption="Заголовок" type="string"/>
+    <FIELD name="descr" caption="Описание" type="text" editor="maxi"/>
+    <FIELD name="file1" caption="Файл" type="file"/>
+</DATATYPE>

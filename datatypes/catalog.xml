@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATATYPE name="catalog" caption="Каталог" icon="fa-book">
+    <FIELD name="title" caption="Заголовок" type="string"/>
+    <FIELD name="articul" caption="Артикул" type="string"/>
+    <FIELD name="content" caption="Описание" type="text" editor="maxi" brief="60"/>
+    <FIELD name="age" caption="Возраст" type="list" parent="271" multiply="yes"/>
+    <FIELD name="image1" caption="Изображение1" type="image">
+        <IMAGE x="200" y="200" prefix="prev"/>
+        <IMAGE x="900" y="900" prefix="full"/>
+    </FIELD>
+    <FIELD name="image2" caption="Изображение2" type="image">
+        <IMAGE x="200" y="200" prefix="prev"/>
+        <IMAGE x="900" y="900" prefix="full"/>
+    </FIELD>
+    <FIELD name="image3" caption="Изображение3" type="image">
+        <IMAGE x="200" y="200" prefix="prev"/>
+        <IMAGE x="900" y="900" prefix="full"/>
+    </FIELD>
+    <FIELD name="image4" caption="Изображение4" type="image">
+        <IMAGE x="200" y="200" prefix="prev"/>
+        <IMAGE x="900" y="900" prefix="full"/>
+    </FIELD> 
+    <FIELD name="price" caption="Прайс" type="linked" table="T_PRICE"/>
+</DATATYPE>

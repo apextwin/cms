@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATATYPE name="sample" caption="Образец">
+    <FIELD name="string" caption="Строка" type="string"/>
+    <FIELD name="text" caption="Длинный текст" type="text"/>
+    <FIELD name="datetime" caption="Дата" type="datetime" format="d.m.Y"/>
+    <FIELD name="numeric" caption="Число" type="numeric" unit="Единица измерения"/>
+    <FIELD name="image" caption="Изображение" type="image"/>
+    <FIELD name="file" caption="Файл" type="file"/>
+    <FIELD name="select" caption="Список выбора" type="list" parent="0"/>
+    <FIELD name="nodelink" caption="Ссылка на ноду" type="nodelink" root="0"/>
+</DATATYPE>

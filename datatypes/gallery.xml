@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATATYPE name="gallery" caption="Изображение" icon="fa-file-image-o">
+    <FIELD name="title" caption="Заголовок" type="string"/>
+    <FIELD name="descr" caption="Описание" type="text" editor="maxi"/>
+    <FIELD name="image1" caption="Изображение1" type="image">
+        <IMAGE x="400" y="300" prefix="prev"/>
+        <IMAGE x="1000" y="900" prefix="full"/>
+    </FIELD>
+</DATATYPE>
